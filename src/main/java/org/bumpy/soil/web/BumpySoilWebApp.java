@@ -1,4 +1,4 @@
-package org.bumpy.soil.system;
+package org.bumpy.soil.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author bumpy soil
  */
 @SpringBootApplication
-public class SystemApplication {
+public class BumpySoilWebApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(SystemApplication.class, args);
+        SpringApplication.run(BumpySoilWebApp.class, args);
     }
 
 }
