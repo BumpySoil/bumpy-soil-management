@@ -1,7 +1,7 @@
 package org.bumpy.soil.web.common.aop;
 
 import org.bumpy.soil.web.common.enumeration.CodeEnum;
-import org.bumpy.soil.web.entity.vo.ResultVo.ResultVO;
+import org.bumpy.soil.web.entity.vo.ResultVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.converter.HttpMessageNotReadableException;
@@ -16,7 +16,7 @@ import javax.validation.ConstraintViolationException;
  * Copyright (C), 2022-2023, 土克拉
  * Description: 控制层统一异常增强
  *
- * @Author: gaojg
+ * @Author: bumpy soil
  */
 @RestControllerAdvice(basePackages = {"org.bumpy.soil.web.controller"})
 public class ControllerExceptionAdvice {

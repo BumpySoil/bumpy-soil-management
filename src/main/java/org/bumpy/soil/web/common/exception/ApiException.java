@@ -7,7 +7,7 @@ import org.bumpy.soil.web.common.enumeration.CodeEnum;
  * Copyright (C), 2022-2023, 土克拉
  * Description: 接口异常
  *
- * @Author: gaojg
+ * @Author: bumpy soil
  */
 @Getter
 public class ApiException extends RuntimeException {

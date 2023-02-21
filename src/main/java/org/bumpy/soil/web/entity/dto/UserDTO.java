@@ -1,21 +1,23 @@
-package org.bumpy.soil.web.entity.vo.ResultVo;
+package org.bumpy.soil.web.entity.dto;
 
 import lombok.Data;
-
-import java.io.Serializable;
 
 /**
  * Copyright (C), 2022-2023, 土克拉
  * Description: 用户
  *
- * @Author: bumpySoil
+ * @Author: bumpy soil
  */
 @Data
-public class UserVO implements Serializable {
+public class UserDTO {
+
+    private Integer userId;
 
     private String userName;
 
     private String password;
+
+    private String nickName;
 
     private String email;
 

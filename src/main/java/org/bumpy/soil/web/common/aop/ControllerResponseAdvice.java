@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.bumpy.soil.web.common.annotation.NotResponseAdvice;
 import org.bumpy.soil.web.common.enumeration.CodeEnum;
 import org.bumpy.soil.web.common.exception.ApiException;
-import org.bumpy.soil.web.entity.vo.ResultVo.ResultVO;
+import org.bumpy.soil.web.entity.vo.ResultVO;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -18,7 +18,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
  * Copyright (C), 2022-2023, 土克拉
  * Description: 统一响应格式
  *
- * @Author: gaojg
+ * @Author: bumpy soil
  */
 @RestControllerAdvice(basePackages = {"org.bumpy.soil.web.controller"})
 public class ControllerResponseAdvice implements ResponseBodyAdvice<Object> {

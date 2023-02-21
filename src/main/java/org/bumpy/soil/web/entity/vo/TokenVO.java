@@ -1,4 +1,4 @@
-package org.bumpy.soil.web.entity.vo.ResultVo;
+package org.bumpy.soil.web.entity.vo;
 
 import lombok.Data;
 
